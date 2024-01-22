@@ -1,0 +1,126 @@
+#intro {
+    height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    /* background: url('../../assets/wave.svg')center/cover no-repeat; */
+}
+
+.bg {
+    position: absolute;
+    z-index: 0;
+    top: 4rem;
+    right: 1vw;
+    object-fit: cover;
+    height: 60vh;
+}
+
+.introContent {
+    height: 100vh;
+    width: 100vw;
+    padding: 2rem;
+    font-size: 3rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hello {
+    font-size: 1.75rem;
+    font-weight: 100;
+}
+
+.introName {
+    color: rgb(240, 224, 9);
+    font-size: 3rem;
+}
+
+.introPara {
+    font-size: medium;
+    font-weight: 200;
+    letter-spacing: 1px;
+
+}
+
+.btn {
+    margin: 1rem 0;
+    background: white;
+    color: black;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 2rem;
+}
+
+.btnImg {
+    object-fit: cover;
+    margin: 0 0.25rem;
+    height: 1rem;
+}
+
+@media screen and (max-width:840px) {
+    .bg {
+        right: -10vw;
+        height: -3rem;
+    }
+
+    .introContent {
+        font-size: 10vw;
+        z-index: 1;
+    }
+
+    .introName {
+        font-size: 2rem;
+    }
+
+    .introPara {
+        color: rgb(255, 255, 255);
+        font-weight: 300;
+        z-index: 1;
+    }
+
+    .introText {
+        z-index: 1;
+        color: rgb(253, 174, 69);
+    }
+
+    .hello {
+        color: rgb(253, 174, 69);
+    }
+
+    .intro {
+        padding-bottom: 5rem;
+    }
+
+    .introName {
+        color: rgb(253, 174, 69);
+    }
+}
+
+@media screen and (max-width:480px) {
+    .bg {
+        right: -40vw;
+        top: 3rem;
+    }
+
+    .introName {
+        color: rgb(0, 0, 0);
+        font-weight: 800;
+        background: rgba(219, 219, 214, 0.76);
+    }
+
+    .hello {
+        z-index: 1;
+        color: rgb(0, 0, 0);
+        font-weight: 800;
+        background: rgba(219, 219, 214, 0.76);
+        width: 20vw;
+    }
+    .introText{
+        background: rgba(131, 131, 124, 0.76);
+        
+    }
+}
+
