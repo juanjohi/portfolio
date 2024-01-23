@@ -25,7 +25,7 @@ export const Contact = () => {
             <form action="" className="contactForm">
                 <input type="text" className="name" placeholder='Your Name' />
                 <input type="text" className="email" placeholder='Your Email'/>
-                <textarea name="" rows="5" placeholder='Your Message' className='msg'> </textarea>
+                <textarea type="text" rows="5" className='msg' placeholder='Your Message' />
                 <button className="submitBtn" type='submit' value='send'> Submit </button> 
             </form>
 

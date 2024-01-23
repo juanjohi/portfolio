@@ -9,6 +9,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+    background: url('../../assets/lines.svg');
 }
 
 .clientsHeader {
@@ -49,8 +50,9 @@
 }
 
 .contactHeader {
+    padding-top: 1rem;
     font-size: 3rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
 }
 
 .contactPara {
@@ -77,7 +79,7 @@
     color: white;
     border: none;
     border-radius: 0.5rem;
-    background: rgb(40, 40, 40);
+    background: rgba(0, 0, 0, 0.747);
 }
 
 .submitBtn{
