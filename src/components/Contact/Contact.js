@@ -4,7 +4,7 @@ import './Contact.css'
 
 export const Contact = () => {
     return (
-        <section className="contactPage">
+        <section className="contactPage" id='contact'>
             <div className="clients">
                 <h1 className="clientsHeader">My Clients</h1>
                 <p className="clientPara">I have had the oppurtunity to work with a diverse group of companies based in different sectors</p>
