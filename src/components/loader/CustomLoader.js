@@ -5,7 +5,9 @@ import './CustomLoader.scss'
 export const CustomLoader = () => {
     return (
       <>
-        <Loader type="pacman"/>
+   
+        <Loader type="pacman" id='screen'/>
+       
       </>
   )
 }

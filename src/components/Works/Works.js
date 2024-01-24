@@ -6,6 +6,7 @@ import Vins from '../../assets/vins.png'
 import Nics from '../../assets/nics.png'
 import Bino from '../../assets/binoculars.gif'
 
+
 export const Works = () => {
   return (
     <section id='works'>
@@ -21,27 +22,27 @@ export const Works = () => {
         <div className="container">
           <img src={Marinus} alt="project1" className="worksImg" style={{ width: '350px', height: '400px;' }} />
           <div className="middle">
-            <div className="look"><button className='btnWork'><img src={Bino} className='btnImg' alt='hire' /></button></div>
+            <div className="look"> <a href="https://marinusplantations.com/" target="_blank" rel="noreferrer"> <button className='btnWork'><img src={Bino} className='btnImg' alt='hire' /></button></a></div>
           </div>
         </div>
         <div className="container">
         <img src={Jemkos} alt="project2" className="worksImg" style={{width:'350px',height:'400px;'}}/>
           <div className="middle">
-            <div className="look"><button className='btnWork'><img src={Bino} className='btnImg' alt='hire' /></button></div>
+            <div className="look"> <a href="https://juanjohi.github.io/Jemkos/" target="_blank" rel="noreferrer"> <button className='btnWork'><img src={Bino} className='btnImg' alt='hire' /></button></a></div>
           </div>
         </div>
 
         <div className="container">
         <img src={Nics} alt="project3" className="worksImg" style={{width:'350px',height:'400px;'}}/>
           <div className="middle">
-            <div className="look"><button className='btnWork'><img src={Bino} className='btnImg' alt='hire' /></button></div>
+            <div className="look"> <a href="https://nicsdrillingcompany.co.ke/" target="_blank" rel="noreferrer"> <button className='btnWork'><img src={Bino} className='btnImg' alt='hire' /></button></a></div>
           </div>
         </div>
 
         <div className="container">
         <img src={Vins} alt="project4" className="worksImg" style={{width:'350px',height:'400px;'}}/>
           <div className="middle">
-            <div className="look"><button className='btnWork'><img src={Bino} className='btnImg' alt='hire' /></button></div>
+            <div className="look"> <a href="https://juanjohi.github.io/vins/" target="_blank" rel="noreferrer"> <button className='btnWork'><img src={Bino} className='btnImg' alt='hire' /> </button></a> </div>
           </div>
         </div>
       

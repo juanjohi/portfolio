@@ -4,7 +4,7 @@ import Skills from './components/Skills/Skills';
 import Works from './components/Works/Works';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
-import CustomLoader from './components/loader/CustomLoader';
+
 
 
 
@@ -12,7 +12,7 @@ function App() {
 
   return (
     <div className="App">
-      <CustomLoader />
+    
       <Navbar />
       <Intro />
       <Skills />

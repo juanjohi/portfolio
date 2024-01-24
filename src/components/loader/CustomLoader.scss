@@ -3,7 +3,7 @@
 @import '~loaders.css/src/animations/pacman.scss';
 
 .loader-hidden {
-  display: none;
+  display:none;
 }
 
 .loader-active {
@@ -19,3 +19,4 @@
   animation: fadeOut 1s 1s;
   animation-fill-mode: forwards;
 }
+
