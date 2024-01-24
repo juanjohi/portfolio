@@ -1,16 +1,28 @@
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
     background: transparent;
-    font-family:'Poppins',  sans-serif;
-    
+    font-family: 'Poppins', sans-serif;
+
 }
 
-body{
+body {
     background: rgb(0, 0, 0);
     color: white;
     overflow: hidden;
     overflow-y: scroll;
+}
+
+
+    .loader-hidden {
+        display: none;
+    }
+
+
+
+.loader-active {
+    display: block;
 }
