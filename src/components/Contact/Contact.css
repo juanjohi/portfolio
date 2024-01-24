@@ -49,6 +49,10 @@
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
+.container{
+    padding-top: 2rem;
+}
+
 .contactHeader {
     padding-top: 1rem;
     font-size: 3rem;

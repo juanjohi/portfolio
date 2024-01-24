@@ -17,20 +17,23 @@ export const Contact = () => {
                 </div>
 
             </div>
-            <div className="contact">
-                <h1 className="contactHeader">Contact Me</h1>
-                <p className="contactPara">Fill Out the form below to discuss any work oppurtunities</p>
-            </div>
 
-            <form action="https://formsubmit.co/kennedywanjohi15@gmail.com" method='POST' className="contactForm">
-                <input type="text" name="_honey" style={{ display: 'none' }} />
-                <input type="hidden" name="_captcha" value="false" />
-                <input type="hidden" name="_next" value="https://wanjohi-portfolio.vercel.app"></input>
-                <input type="text" name='name' className="name" placeholder='Your Name' />
-                <input type="email" name='email' className="email" placeholder='Your Email' />
-                <textarea type="text" rows="5" className='msg' name='subject' placeholder='Your Message' />
-                <button className="submitBtn" type='submit' value='send'> Submit </button>
-            </form>
+            <div className="container">
+                <div className="contact">
+                    <h1 className="contactHeader">Contact Me</h1>
+                    <p className="contactPara">Fill Out the form below to discuss any work oppurtunities</p>
+                </div>
+
+                <form action="https://formsubmit.co/kennedywanjohi15@gmail.com" method='POST' className="contactForm">
+                    <input type="text" name="_honey" style={{ display: 'none' }} />
+                    <input type="hidden" name="_captcha" value="false" />
+                    <input type="hidden" name="_next" value="https://wanjohi-portfolio.vercel.app"></input>
+                    <input type="text" name='name' className="name" placeholder='Your Name' />
+                    <input type="email" name='email' className="email" placeholder='Your Email' />
+                    <textarea type="text" rows="5" className="msg" name='subject' placeholder='Your Message' />
+                    <button className="submitBtn" type='submit' value='send'> Submit </button>
+                </form>
+            </div>
 
         </section>
     )
