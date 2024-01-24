@@ -17,7 +17,7 @@ export const Intro = () => {
               <p className='introPara'>I'm a skilled web developer/designer creating stunning websites <br/> with immersive visuals and functionality <br />
                   And also practice as an It Consultant/Technician <br/> With knowledge in solving both S/W and H/W problems</p>
               {/* <Link to={Cv} target='blank' dowload="resume.pdf"> </Link> */}
-              <a href={Cv} download="KennedyCv.pdf"> <button className='btn'><img src={Down} className='btnImg' alt='hire' /></button> </a>
+              <a href={Cv} download="KennedyCv.pdf"> <button className='btn'><img src={Down} className='binoImg' alt='hire' /></button> </a>
               
           </div>
           <img src={buddies} alt='introImg' className='bg'/>

@@ -1,12 +1,10 @@
 import React from 'react'
 import './Works.css'
 import Marinus from '../../assets/marinus.png'
-import Nics from '../../assets/nics.png'
 import Jemkos from '../../assets/Jemkos.png'
 import Vins from '../../assets/vins.png'
-// import Img5 from '../../assets/portfolio-5.png'
-// import Img6 from '../../assets/portfolio-6.png'
-
+import Nics from '../../assets/nics.png'
+import Bino from '../../assets/binoculars.gif'
 
 export const Works = () => {
   return (
@@ -19,12 +17,34 @@ export const Works = () => {
         I am excited to bring my expertise and skills to help businesses and individuals achieve their goals and vision
       </div>
       <div className="workImgs">
-        <img src={Marinus} alt="project1" className="worksImg" />
-        <img src={Jemkos} alt="project2" className="worksImg" />
-        <img src={Nics} alt="project3" className="worksImg" />
-        <img src={Vins} alt="project4" className="worksImg" />
-        {/* <img src={Img5} alt="project5" className="worksImg" />
-        <img src={Img6} alt="project6" className="worksImg" /> */}
+
+        <div className="container">
+          <img src={Marinus} alt="project1" className="worksImg" style={{ width: '350px', height: '400px;' }} />
+          <div className="middle">
+            <div className="look"><button className='btnWork'><img src={Bino} className='btnImg' alt='hire' /></button></div>
+          </div>
+        </div>
+        <div className="container">
+        <img src={Jemkos} alt="project2" className="worksImg" style={{width:'350px',height:'400px;'}}/>
+          <div className="middle">
+            <div className="look"><button className='btnWork'><img src={Bino} className='btnImg' alt='hire' /></button></div>
+          </div>
+        </div>
+
+        <div className="container">
+        <img src={Nics} alt="project3" className="worksImg" style={{width:'350px',height:'400px;'}}/>
+          <div className="middle">
+            <div className="look"><button className='btnWork'><img src={Bino} className='btnImg' alt='hire' /></button></div>
+          </div>
+        </div>
+
+        <div className="container">
+        <img src={Vins} alt="project4" className="worksImg" style={{width:'350px',height:'400px;'}}/>
+          <div className="middle">
+            <div className="look"><button className='btnWork'><img src={Bino} className='btnImg' alt='hire' /></button></div>
+          </div>
+        </div>
+      
       </div>
       <button className="worksBtn">See More</button>
     </section>
