@@ -25,7 +25,7 @@ export const Contact = () => {
             <form action="https://formsubmit.co/kennedywanjohi15@gmail.com" method='POST' className="contactForm">
                 <input type="text" name="_honey" style={{ display: 'none' }} />
                 <input type="hidden" name="_captcha" value="false" />
-                <input type="hidden" name="_next" value="https://juanjohi.github.io/portfolio/thanks.html/"></input>
+                <input type="hidden" name="_next" value="https://github.com/juanjohi/portfolio/thanks.html"></input>
                 <input type="text" name='name' className="name" placeholder='Your Name' />
                 <input type="email" name='email' className="email" placeholder='Your Email' />
                 <textarea type="text" rows="5" className='msg' name='subject' placeholder='Your Message' />
